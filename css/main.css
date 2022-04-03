@@ -33,6 +33,11 @@ body {
     line-height: 1.75;
     height: var(--depth);
     font-weight: 300;
+    scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
 }
 
 .container {
